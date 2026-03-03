@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Parental Toddler Program - Transform your home into a learning sanctuary. Science-backed activities for ages 1-3. Empower parents to guide early childhood development with confidence and joy." />
+    <title>Parental Toddler Program | Home-as-a-Learning-SPACE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="page-loader" id="pageLoader" aria-hidden="true">
+        <div class="loader-core"></div>
+        <p>ParenTal Toddler</p>
+    </div>
+
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+    <header class="site-header" id="siteHeader">
+        <a href="#hero" class="brand">
+            <img src="./assets/img/spaceece_logo.png" alt="Parental Toddler Program logo" width="42" height="42"
+                loading="lazy" />
+            <span>ParenTal Toddler</span>
+        </a>
+
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#highlights">Why This Matters</a>
+            <a href="#who-can-apply">Who Should Join</a>
+            <a href="#curriculum">Activities & Learning</a>
+            <a href="#testimonials">Parent Stories</a>
+            <a href="#register" class="btn mini magnetic">Join Now</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span>
+        </button>
+    </header>
+
+    <aside class="section-dots" id="sectionDots" aria-label="Section indicator"></aside>
+
+    <main>
+        <section class="hero section" id="hero" data-section="Hero">
+            <canvas class="particles" id="particles" aria-hidden="true"></canvas>
+            <div class="hero-rays" aria-hidden="true"></div>
+            <div class="hero-svg" aria-hidden="true">
+                <svg viewBox="0 0 1200 900" role="presentation">
+                    <defs>
+                        <linearGradient id="meshStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ffd67e" stop-opacity="0.65" />
+                            <stop offset="50%" stop-color="#f4a300" stop-opacity="0.35" />
+                            <stop offset="100%" stop-color="#fff3ce" stop-opacity="0.15" />
+                        </linearGradient>
+                        <radialGradient id="meshGlow" cx="50%" cy="50%" r="55%">
+                            <stop offset="0%" stop-color="#f4a300" stop-opacity="0.34" />
+                            <stop offset="100%" stop-color="#f4a300" stop-opacity="0" />
+                        </radialGradient>
+                        <filter id="softBlur">
+                            <feGaussianBlur stdDeviation="16" />
+                        </filter>
+                    </defs>
+                    <ellipse cx="840" cy="340" rx="280" ry="250" fill="url(#meshGlow)" filter="url(#softBlur)" />
+                    <g fill="none" stroke="url(#meshStroke)" stroke-width="2">
+                        <path d="M330,520 C430,300 650,240 790,360 C920,470 1020,420 1120,260" />
+                        <path d="M260,600 C390,360 610,300 780,410 C930,510 1050,470 1160,300" />
+                        <path d="M310,690 C470,430 690,390 860,500 C980,580 1080,540 1180,390" />
+                        <path d="M580,170 C680,250 720,360 700,470 C680,570 750,670 930,760" />
+                        <path d="M470,180 C580,260 620,390 590,500 C560,610 640,720 830,810" />
+                    </g>
+                    <g fill="#ffd67e" fill-opacity="0.85">
+                        <circle cx="760" cy="322" r="4" />
+                        <circle cx="836" cy="360" r="3" />
+                        <circle cx="905" cy="420" r="4" />
+                        <circle cx="694" cy="468" r="3" />
+                        <circle cx="947" cy="528" r="3" />
+                    </g>
+                </svg>
+            </div>
+
+            <div class="hero-content reveal">
+                <p class="eyebrow">Parental Toddler Program</p>
+                <h1>Turn your home into a <span>learning sanctuary</span> for your toddler.</h1>
+                <p class="lead">Empower your child's early development through scientifically-designed activities. Join
+                    2,500+ parents creating nurturing home environments where toddlers aged 1-3 thrive, learn, and grow
+                    with confidence and joy.</p>
+
+                <div class="hero-cta">
+                    <a href="#register" class="btn magnetic ripple">Join the Program</a>
+                    <a href="#curriculum" class="btn btn-ghost magnetic ripple">Discover Activities</a>
+                </div>
+
+                <div class="stats">
+                    <article>
+                        <h3 data-counter="2500">0</h3>
+                        <p>Families Engaged</p>
+                    </article>
+                    <article>
+                        <h3 data-counter="156">0</h3>
+                        <p>Home Activities</p>
+                    </article>
+                    <article>
+                        <h3 data-counter="98">0</h3>
+                        <p>Success Rate</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="glass-card tilt floating">
+                    <h4>Parent-Led Activities</h4>
+                    <p>156 science-backed activities designed for parents to facilitate at home without special
+                        training.</p>
+                </div>
+                <div class="glass-card tilt floating delay">
+                    <h4>Developmental Milestones</h4>
+                    <p>Track and celebrate your toddler's growth across cognitive, motor, and emotional development.</p>
+                </div>
+
+                <div class="hero-orbit" aria-hidden="true">
+                    <svg viewBox="0 0 300 300">
+                        <defs>
+                            <linearGradient id="ringGradient" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0%" stop-color="#f4a300" />
+                                <stop offset="100%" stop-color="#ffe39f" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="150" cy="150" r="110" fill="none" stroke="url(#ringGradient)" stroke-opacity="0.35"
+                            stroke-width="1.5" stroke-dasharray="8 10"></circle>
+                        <circle cx="150" cy="150" r="70" fill="none" stroke="url(#ringGradient)" stroke-opacity="0.5"
+                            stroke-width="1.2"></circle>
+                        <circle cx="150" cy="150" r="12" fill="#f4a300"></circle>
+                        <circle class="orb orb-1" cx="260" cy="150" r="6" fill="#ffe39f"></circle>
+                        <circle class="orb orb-2" cx="220" cy="95" r="4" fill="#f4a300"></circle>
+                    </svg>
+                </div>
+            </div>
+            <div class="hero-divider" aria-hidden="true">
+                <svg viewBox="0 0 1440 160" preserveAspectRatio="none">
+                    <defs>
+                        <linearGradient id="dividerGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#f4a300" stop-opacity="0" />
+                            <stop offset="50%" stop-color="#f4a300" stop-opacity="0.7" />
+                            <stop offset="100%" stop-color="#f4a300" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <path
+                        d="M0,70 C220,130 420,18 620,52 C760,76 920,154 1120,114 C1270,85 1360,40 1440,64 L1440,160 L0,160 Z"
+                        fill="rgba(255,255,255,0.02)" />
+                    <path d="M0,66 C220,126 420,14 620,48 C760,72 920,150 1120,110 C1270,81 1360,36 1440,60" fill="none"
+                        stroke="url(#dividerGlow)" stroke-width="2.5" />
+                </svg>
+            </div>
+        </section>
+
+        <section class="about section" id="about" data-section="About">
+            <div class="decorative-svg decoration-1" aria-hidden="true">
+                <svg viewBox="0 0 200 200" role="presentation">
+                    <defs>
+                        <linearGradient id="decGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f4a300" stop-opacity="0.2" />
+                            <stop offset="100%" stop-color="#f4a300" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="100" cy="100" r="95" fill="none" stroke="url(#decGrad1)" stroke-width="0.5" />
+                    <circle cx="100" cy="100" r="75" fill="none" stroke="url(#decGrad1)" stroke-width="0.3"
+                        opacity="0.6" />
+                    <path d="M100,20 Q180,100 100,180 Q20,100 100,20" fill="none" stroke="url(#decGrad1)"
+                        stroke-width="0.5" />
+                </svg>
+            </div>
+            <div class="content-wrap">
+                <div class="copy reveal">
+                    <p class="eyebrow">About Parental Toddler Program</p>
+                    <h2>Home as a Learning SPACE for your precious little one.</h2>
+                    <p>The Parental Toddler Program recognizes a fundamental truth: <strong>the home is your child's
+                            first classroom</strong>, and you are their most influential teacher. During ages 1-3,
+                        toddlers experience unparalleled brain development, with 90% of neural connections formed. This
+                        is the critical window where everyday moments transform into powerful learning opportunities.
+                    </p>
+
+                    <p>Our program empowers parents with scientifically-designed activities using items already in your
+                        home. No special training needed. No expensive materials required. Just meaningful interactions
+                        that nurture your child's curiosity, build confidence, and lay the foundation for lifelong
+                        learning.</p>
+
+                    <p>Through guided activities across texture exploration, sensory play, cognitive challenges, and
+                        motor skill development, you'll discover how sorting household items becomes a mathematics
+                        lesson, how bath time becomes a science experiment, and how playtime becomes profound bonding.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="feature-card tilt reveal glow-border">
+                        <h3>Longitudinal Progression</h3>
+                        <p>Each activity builds systematically on previous milestones. Our curriculum spans ages 1-3,
+                            then pre-school and early grades, creating a seamless learning journey where each stage
+                            prepares your child for the next.</p>
+                    </article>
+                    <article class="feature-card tilt reveal glow-border">
+                        <h3>Parent Empowerment</h3>
+                        <p>You already have everything you need. Our program trains parents to recognize learning in
+                            everyday moments and facilitates activities that require zero special equipment—just
+                            intentionality and presence.</p>
+                    </article>
+                    <article class="feature-card tilt reveal glow-border">
+                        <h3>Evidence-Based Approach</h3>
+                        <p>Every activity is grounded in child development research. Designed by early childhood experts
+                            and field-tested with thousands of families, our methods deliver measurable developmental
+                            gains.</p>
+                    </article>
+                    <article class="feature-card tilt reveal glow-border">
+                        <h3>Holistic Development</h3>
+                        <p>We nurture cognitive, motor, social-emotional, and sensory development simultaneously. Your
+                            child grows confident, curious, creative, and connected—ready for any challenge ahead.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights section" id="highlights" data-section="Highlights">
+            <div class="decorative-svg decoration-2" aria-hidden="true">
+                <svg viewBox="0 0 240 160" role="presentation">
+                    <defs>
+                        <linearGradient id="decGrad2" x1="0%" y1="50%" x2="100%" y2="50%">
+                            <stop offset="0%" stop-color="#f4a300" stop-opacity="0.15" />
+                            <stop offset="50%" stop-color="#f4a300" stop-opacity="0.3" />
+                            <stop offset="100%" stop-color="#f4a300" stop-opacity="0.15" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M20,80 Q60,20 100,80 T180,80 T240,80" fill="none" stroke="url(#decGrad2)" stroke-width="2"
+                        stroke-linecap="round" />
+                    <path d="M20,120 Q60,60 100,120 T180,120 T240,120" fill="none" stroke="url(#decGrad2)"
+                        stroke-width="1.5" opacity="0.7" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="content-wrap">
+                <div class="heading reveal">
+                    <p class="eyebrow">Why This Program Matters</p>
+                    <h2>The First 1,000 Days Shape a Lifetime</h2>
+                    <p>Research shows that 90% of brain development happens before age 3. Quality early experiences
+                        create stronger neural connections, better emotional regulation, improved language development,
+                        and enhanced social skills. Your involvement matters more than any expensive program.</p>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="learn-card glow-border">
+                        <h3>156 Guided Activities</h3>
+                        <p>From texture exploration and sensory play to cognitive challenges and gross motor
+                            development—all designed for your home, using everyday objects. Activities progress with
+                            your child's development across 1-3 years.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Cognitive Leap Builders</h3>
+                        <p>Activities that sharpen problem-solving, classification, and early mathematical thinking.
+                            Watch your toddler discover that sorting toys by color is a lesson in categorization and
+                            logical reasoning.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Motor Skill Mastery</h3>
+                        <p>Fine motor activities (threading, grasping, poking) and gross motor play (climbing, jumping,
+                            balancing) that build confidence and physical competence. Your child gains independence and
+                            coordination.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Sensory Integration</h3>
+                        <p>Touch different textures, explore sounds, taste safe flavors, smell natural scents.
+                            Sensory-rich experiences calm anxiety and boost learning. Your home becomes a multi-sensory
+                            learning laboratory.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Language & Communication</h3>
+                        <p>Narrate activities, expand vocabulary, introduce concepts through play-based conversations.
+                            Your toddler's language explodes when learning happens through joyful interaction, not
+                            instruction.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Emotional Bonding</h3>
+                        <p>The most powerful outcome: deeper parent-child connection. Shared learning moments build
+                            secure attachment, trust, and a lifetime love of learning. Your presence is the most
+                            valuable teaching tool.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="who-can-apply section" id="who-can-apply" data-section="Who Can Apply">
+            <div class="decorative-svg decoration-3" aria-hidden="true">
+                <svg viewBox="0 0 300 300" role="presentation">
+                    <defs>
+                        <linearGradient id="decGrad3" x1="50%" y1="50%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f4a300" stop-opacity="0.25" />
+                            <stop offset="100%" stop-color="#f4a300" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="150" cy="150" r="120" fill="none" stroke="url(#decGrad3)" stroke-width="0.8" />
+                    <circle cx="150" cy="150" r="90" fill="none" stroke="url(#decGrad3)" stroke-width="0.6"
+                        opacity="0.7" />
+                    <circle cx="50" cy="50" r="4" fill="#f4a300" opacity="0.5" />
+                    <circle cx="250" cy="250" r="3" fill="#f4a300" opacity="0.4" />
+                </svg>
+            </div>
+            <div class="content-wrap">
+                <div class="heading reveal">
+                    <p class="eyebrow">Who Should Join</p>
+                    <h2>This Program Is For Parents Like You</h2>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="learn-card glow-border">
+                        <h3>New Parents</h3>
+                        <p>Wanting to maximize your child's early years and build confident parenting foundations from
+                            day one. No prior experience needed—just love and willingness to learn.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Working Parents</h3>
+                        <p>Who want quality time with their toddlers. These short, purposeful activities fit into busy
+                            schedules and transform ordinary moments into meaningful developmental opportunities.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Caregivers & Grandparents</h3>
+                        <p>Anyone spending significant time with a toddler will benefit. Our activities help you engage
+                            meaningfully and understand child development while having fun together.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Educators Seeking Resources</h3>
+                        <p>Teachers and daycare providers who want proven, age-appropriate activities to share with
+                            families. The program strengthens home-school partnerships and consistency in care.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Aspiring ECE Professionals</h3>
+                        <p>Building knowledge of early childhood development before pursuing formal certification. This
+                            program provides practical foundations and real-world experience with toddlers.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Parents Seeking Development Support</h3>
+                        <p>If your child shows developmental delays or you want extra enrichment, our activities target
+                            all developmental domains and adapt to individual needs and pace.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="curriculum section" id="curriculum" data-section="Curriculum">
+            <div class="decorative-svg decoration-4" aria-hidden="true">
+                <svg viewBox="0 0 200 300" role="presentation">
+                    <defs>
+                        <linearGradient id="decGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f4a300" stop-opacity="0.2" />
+                            <stop offset="100%" stop-color="#f4a300" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M100,10 L180,90 L140,150 L60,150 L20,90 Z" fill="none" stroke="url(#decGrad4)"
+                        stroke-width="0.5" />
+                    <circle cx="100" cy="80" r="30" fill="none" stroke="url(#decGrad4)" stroke-width="0.3"
+                        opacity="0.6" />
+                </svg>
+            </div>
+            <div class="content-wrap">
+                <div class="heading reveal">
+                    <p class="eyebrow">Learning Domains</p>
+                    <h2>Comprehensive Activities Across All Developmental Areas</h2>
+                    <p>Our 156 activities target six critical domains, with progression that matches your child's age
+                        and readiness. Each activity takes 5-15 minutes and uses everyday household items.</p>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="learn-card glow-border">
+                        <h3>Cognitive Development</h3>
+                        <p><strong>Activities:</strong> Sorting, matching, object permanence games, cause-and-effect
+                            exploration, problem-solving challenges. Your toddler learns to think, reason, and
+                            understand the world around them.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Motor Skill Development</h3>
+                        <p><strong>Activities:</strong> Fine motor (threading, grasping, poking) and gross motor
+                            (climbing, jumping, dancing). Builds physical confidence, coordination, and independence in
+                            daily tasks.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Language & Communication</h3>
+                        <p><strong>Activities:</strong> Narration, vocabulary building, sound exploration, storytelling.
+                            Your toddler's language flourishes when embedded in joyful, interactive play experiences.
+                        </p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Sensory Integration</h3>
+                        <p><strong>Activities:</strong> Texture exploration (clay, water, sand), sound discovery,
+                            taste-safe flavors, scent exploration. Multi-sensory experiences calm and engage developing
+                            brains.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Social-Emotional Development</h3>
+                        <p><strong>Activities:</strong> Emotion naming, empathy building, turn-taking, cooperative play.
+                            Strong emotional foundations create resilient, confident, socially-aware children.</p>
+                    </article>
+
+                    <article class="learn-card glow-border">
+                        <h3>Self-Care & Independence</h3>
+                        <p><strong>Activities:</strong> Eating, dressing, hygiene routines guided playfully. Your
+                            toddler gains competence, confidence, and independence—essential for school readiness.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials section" id="testimonials" data-section="Stories">
+            <div class="decorative-svg decoration-5" aria-hidden="true">
+                <svg viewBox="0 0 320 200" role="presentation">
+                    <defs>
+                        <linearGradient id="decGrad5" x1="0%" y1="50%" x2="100%" y2="50%">
+                            <stop offset="0%" stop-color="#f4a300" stop-opacity="0" />
+                            <stop offset="50%" stop-color="#f4a300" stop-opacity="0.2" />
+                            <stop offset="100%" stop-color="#f4a300" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M 20,100 Q 60,30 100,100 T 180,100 T 260,100 T 320,100" fill="none" stroke="url(#decGrad5)"
+                        stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M 20,130 Q 60,60 100,130 T 180,130 T 260,130 T 320,130" fill="none" stroke="url(#decGrad5)"
+                        stroke-width="1" opacity="0.7" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="content-wrap">
+                <div class="heading reveal">
+                    <p class="eyebrow">Parent Testimonials</p>
+                    <h2>Real transformations from families like yours.</h2>
+                </div>
+
+                <div class="testimonial-slider reveal" id="testimonialSlider">
+                    <div class="slides" id="slidesTrack">
+                        <article class="slide glow-border">
+                            <p>"I was overwhelmed as a first-time parent. This program showed me that I already had
+                                everything my child needed—I just needed guidance on how to engage meaningfully. Now our
+                                playtime is so purposeful and I see her developing confidence every day."</p>
+                            <h4>Priya Sharma</h4>
+                            <span>Mother of 18-month-old</span>
+                        </article>
+                        <article class="slide glow-border">
+                            <p>"My son was shy and hesitant. Through these activities, he's opened up—more verbal, more
+                                curious, more willing to try new things. The bond between us strengthened so much. This
+                                program gives structure without pressure."</p>
+                            <h4>Rajesh Kumar</h4>
+                            <span>Father of 2-year-old</span>
+                        </article>
+                        <article class="slide glow-border">
+                            <p>"As a working mother, I felt guilty about time away. These activities showed me that 15
+                                focused minutes of quality play is worth more than hours of passive interaction. My
+                                daughter learned so much and I became the parent I wanted to be."</p>
+                            <h4>Ananya Verma</h4>
+                            <span>Working Mother of 2</span>
+                        </article>
+                        <article class="slide glow-border">
+                            <p>"The progression in the curriculum is brilliant. I never felt lost or overwhelmed.
+                                Activities grew with my child. By age 3, he was so ready for preschool—emotionally,
+                                cognitively, and socially ahead of peers."</p>
+                            <h4>Vikram Patel</h4>
+                            <span>Father of 3-year-old</span>
+                        </article>
+                        <article class="slide glow-border">
+                            <p>"What amazed me was how ordinary objects became learning tools. Bath time, meal time,
+                                playtime—everything became an opportunity. My daughter's language exploded and her
+                                confidence is remarkable."</p>
+                            <h4>Deepika Reddy</h4>
+                            <span>Mother of 20-month-old</span>
+                        </article>
+                        <article class="slide glow-border">
+                            <p>"I'm a teacher and I recommend this to all parents. The science is solid, the activities
+                                are practical, and the results are visible. This program should be recommended to every
+                                parent of a toddler."</p>
+                            <h4>Meera Iyer</h4>
+                            <span>Teacher & Parent</span>
+                        </article>
+                        <article class="slide glow-border">
+                            <p>"As a grandparent, I finally understand what my grandchildren need to thrive. These
+                                activities aren't just fun—they're developmental miracles in disguise. My granddaughter
+                                adores our learning time together."</p>
+                            <h4>Savitri Devi</h4>
+                            <span>Grandmother & Caregiver</span>
+                        </article>
+                        <article class="slide glow-border">
+                            <p>"The program confirmed what I felt intuitively but didn't know how to implement. Now I'm
+                                confident in my parenting approach, and my son is thriving. Seeing developmental
+                                milestones hit on time has been such a relief."</p>
+                            <h4>Neha Bansal</h4>
+                            <span>New Mother</span>
+                        </article>
+                    </div>
+                    <div class="slider-controls">
+                        <button id="prevSlide" class="btn btn-ghost ripple" type="button">Prev</button>
+                        <button id="nextSlide" class="btn ripple" type="button">Next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="register section" id="register" data-section="Register">
+            <div class="decorative-svg decoration-6" aria-hidden="true">
+                <svg viewBox="0 0 300 300" role="presentation">
+                    <defs>
+                        <radialGradient id="decGrad6" cx="50%" cy="50%" r="70%">
+                            <stop offset="0%" stop-color="#ffd67e" stop-opacity="0.25" />
+                            <stop offset="100%" stop-color="#f4a300" stop-opacity="0" />
+                        </radialGradient>
+                    </defs>
+                    <circle cx="150" cy="150" r="120" fill="none" stroke="url(#decGrad6)" stroke-width="0.8" />
+                    <circle cx="150" cy="150" r="90" fill="none" stroke="url(#decGrad6)" stroke-width="0.6"
+                        opacity="0.7" />
+                    <circle cx="150" cy="150" r="60" fill="none" stroke="url(#decGrad6)" stroke-width="0.5"
+                        opacity="0.5" />
+                    <circle cx="100" cy="100" r="3" fill="#f4a300" opacity="0.6" />
+                    <circle cx="200" cy="150" r="2.5" fill="#ffd67e" opacity="0.5" />
+                </svg>
+            </div>
+            <div class="content-wrap register-wrap">
+                <div class="copy reveal">
+                    <p class="eyebrow">Join Us Today</p>
+                    <h2>Begin your child's learning journey right at home.</h2>
+                    <p>The Parental Toddler Program provides everything you need: 156 scientifically-designed
+                        activities, developmental tracking, parent support, and a community of families committed to
+                        nurturing their children's growth. Your child's critical window is now—let's make every moment
+                        count.</p>
+                </div>
+
+                <form class="register-form reveal glow-border" id="registerForm" novalidate>
+                    <div class="field">
+                        <input id="fullName" name="fullName" type="text" placeholder=" " required />
+                        <label for="fullName">Your Full Name *</label>
+                    </div>
+                    <div class="field">
+                        <input id="email" name="email" type="email" placeholder=" " required />
+                        <label for="email">Email Address *</label>
+                    </div>
+                    <div class="field">
+                        <input id="phone" name="phone" type="tel" placeholder=" " required />
+                        <label for="phone">Phone Number *</label>
+                    </div>
+                    <div class="field">
+                        <input id="childAge" name="childAge" type="text" placeholder=" " required />
+                        <label for="childAge">Child's Age (years/months) *</label>
+                    </div>
+                    <div class="field full">
+                        <textarea id="message" name="message" rows="4" placeholder=" "></textarea>
+                        <label for="message">What's your biggest parenting challenge or hope for your child?</label>
+                    </div>
+
+                    <button type="submit" class="btn magnetic ripple" id="submitBtn">Start the Program</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="content-wrap footer-wrap">
+            <div>
+                <a href="#hero" class="brand footer-brand">
+                    <img src="./assets/img/footer_logo.png" alt="Parental Toddler Program logo" width="42" height="42"
+                        loading="lazy" />
+                    <span>Parental Toddler</span>
+                </a>
+                <p>Empowering parents to create learning-rich homes where toddlers thrive. Transforming everyday moments
+                    into developmental miracles through science-backed activities and compassionate guidance.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <a href="#about">About Program</a>
+                <a href="#highlights">Why It Matters</a>
+                <a href="#curriculum">Activities</a>
+                <a href="#register">Join Now</a>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>hello@parentaltoddler.com</p>
+                <p>+91 9000 000 000</p>
+                <p>Mon-Fri, 9am-6pm IST</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; <span id="year"></span> Parental Toddler Program. Nurturing little minds, building
+            strong futures.</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
